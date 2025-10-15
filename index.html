@@ -8,10 +8,11 @@
 </head>
 <body class="green-color">
     <img src="img/gear.webp" alt="" id="gear">
-    <div id="theme-s">
+    <div id="themeDiv">
         <button id="blue">Синій</button>
         <button id="red">Червоні</button>
         <button id="green">Зелені</button>
+        <button id="done">Далі</button>
     </div>
     <header><h1>Підлітки Заченяєва <br> 2025</h1></header>
     <main>
@@ -19,15 +20,20 @@
             <a href="">Група</a>
             <a href="">Уроки</a>
         </nav>
-        <h2>Швидкий пошук учня <select name="" id="">
-            <option value="">Усі</option>
-            <option value="">Вчителі</option>
-            <option value="">Староста</option>
-            <option value="">Брати</option>
-            <option value="">Сестри</option>
-            <option value="">Чергові</option>
+        <h2>Швидкий пошук учня <select name="" id="search">
+            <option value="0">Усі</option>
+            <option value="1">Вчителі</option>
+            <option value="2">Староста</option>
+            <option value="3">Брати</option>
+            <option value="4">Сестри</option>
+            <option value="5">Чергові</option>
         </select></h2>
+        <div class="pepList">
+            
+        </div>
     </main>
-    <script src="theme.js" defer></script>
+    <script src="JS/theme.js" defer></script>
+    <script src="JS/card.js"></script>
+    <script src="JS/search.js"></script>
 </body>
 </html>
