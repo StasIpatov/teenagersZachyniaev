@@ -1,0 +1,82 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    a{
+        margin: 10px;
+        padding: 5px 10px 5px 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
+
+h2{
+    text-align: center;
+    select{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+}
+
+#gear{
+    width: 50px;
+    text-align: right;
+    position: fixed;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.338);
+    border-radius: 50%;
+}
+
+#gear:hover{
+    transform: rotate(90deg);
+}
+
+#theme-s{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 100px;
+    position: fixed;
+    top: 60px;
+    buttom{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.blue-color{
+    background-image: linear-gradient(rgb(17, 0, 255), rgb(255, 4, 255));
+    background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+.burning-color{
+    background-image: linear-gradient(orange, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-color{
+    background-image: linear-gradient(lime, green);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
