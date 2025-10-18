@@ -1,21 +1,20 @@
-let search = document.getElementById('search')
+let search = document.getElementById('search');
 
-let timaN = document.getElementById('timaN')
-let stas = document.getElementById('stas')
+search.addEventListener('change', function() {
+  let searchV = search.value;
+  console.log('Вибрано категорію:', searchV);
 
-let searchV = search.value
-console.log(searchV)
+  // Знайдемо всі картки
+  let people = document.querySelectorAll('.person');
 
-search.addEventListener('change', function(){
-    let searchV = search.value
+  people.forEach(person => {
+    let roles = person.dataset.role.split(',');
 
-    console.log(searchV)
-    if(searchV == 0){
-        timaN.style.display = 'block'
-        stas.style.display = 'block'
-    } else if(searchV == 1){
-        timaN.style.display = 'none'
-        stas.style.display = 'block'
+    // якщо "Усі" або співпадає з будь-якою роллю
+    if (searchV == 0 || roles.includes(searchV)) {
+      person.style.display = 'block';
+    } else {
+      person.style.display = 'none';
     }
-
-})
+  });
+});

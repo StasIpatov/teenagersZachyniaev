@@ -1,5 +1,5 @@
 async function getProducts(){
-    let response = await fetch('group.json')
+    let response = await fetch('JSON/group.json')
     let products = await response.json()
     return products
 }
@@ -8,7 +8,7 @@ function getCardHtml(info){
     let productData = JSON.stringify(info)
 
     return`
-			<div class="col" id='${info.sing}' ontouchstart="this.classList.toggle('hover');">
+			<div class="col person" id='${info.sing}' data-role='${info.infRole.join(",")}' ontouchstart="this.classList.toggle('hover');">
 				<div class="container">
 					<div class="front" style="background-image: url(${info.img})">
 						<div class="inner">

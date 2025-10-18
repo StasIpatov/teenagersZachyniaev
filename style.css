@@ -1,6 +1,8 @@
 body{
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: white;
+    min-height: 100vh;
+    background-position: center;
 }
 header{
     background-color: rgba(0, 0, 0, 0.5);
@@ -26,9 +28,10 @@ nav{
     }
 }
 
-h2{
+.searchP{
     text-align: center;
     select{
+      z-index: 10;
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         padding: 5px;
@@ -59,6 +62,7 @@ h2{
     width: 100px;
     position: fixed;
     top: 60px;
+    z-index: 10;
     buttom{
         background-color: rgba(0, 0, 0, 0.5);
     }
@@ -95,7 +99,7 @@ h2{
   max-width: 80rem;
 }
 
-.pepList{
+.pepList, .presList{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,10 +110,29 @@ h2{
           justify-content: center;
 }
 
+.presList{
+  flex-direction: column;
+}
+
+.presInf{
+  margin: 5px;
+  padding: 5px;
+  div{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(117, 117, 117, 0.5);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    a{
+      color: white;
+    }
+  }
+}
+
 .col{
   width: calc(25% - 2rem);
   margin: 1rem;
-  cursor: pointer;
+  cursor: context-menu;
   animation: reveal 1s ease forwards;
 }
 

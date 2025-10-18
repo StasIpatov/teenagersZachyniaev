@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Тимофій Кравець",
+        "birth": "???",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Брат, Вчитель",
+        "sing": "timaK",
+        "infRole": ["3", "1"]
+    },
+    {
+        "name": "Стас Іпатов",
+        "birth": "31.05.2011",
+        "des": "hello world!",
+        "img": "img/test.png",
+        "role": "Брат, Проповідник",
+        "sing": "stas",
+        "infRole": ["3"]
+    },
+    {
+        "name": "Тимофій Нефедів",
+        "birth": "24.03.2014",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Брат, Проповідник",
+        "sing": "timaN",
+        "infRole": ["3"]
+    },
+    {
+        "name": "Максименко Христина",
+        "birth": "???",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра, Вчитель",
+        "sing": "kris",
+        "infRole": ["4", "1"]
+    },
+    {
+        "name": "Завялова Аня",
+        "birth": "20.01.2013",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра",
+        "sing": "anya",
+        "infRole": ["4"]
+    },
+    {
+        "name": "Забашта Мілана",
+        "birth": "15.02.2012",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра",
+        "sing": "mila",
+        "infRole": ["4"]
+    },
+    {
+        "name": "Чикурова Богдана",
+        "birth": "01.05.2011",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра",
+        "sing": "bogdana",
+        "infRole": ["4"]
+    },
+    {
+        "name": "Нефедів Артем",
+        "birth": "03.07.2011",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Брат, Проповідник",
+        "sing": "artem",
+        "infRole": ["3"]
+    },
+    {
+        "name": "Чикурова Женя",
+        "birth": "03.08.2014",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра",
+        "sing": "zenya",
+        "infRole": ["4"]
+    },
+    {
+        "name": "Медведєв Паша",
+        "birth": "27.08.2014",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Брат",
+        "sing": "pasha",
+        "infRole": ["3"]
+    },
+    {
+        "name": "Завялова Поліна",
+        "birth": "03.12.2011",
+        "des": "hello world!",
+        "img": "img/vadim.jpg",
+        "role": "Сестра",
+        "sing": "poli",
+        "infRole": ["4"]
+    }
+]
