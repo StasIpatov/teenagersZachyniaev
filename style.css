@@ -25,6 +25,10 @@ nav{
         text-decoration: none;
         border: 2px solid black;
         border-radius: 10px;
+        transition: 0.5s;
+    }
+    a:hover{
+      transform: scale(105%);
     }
 }
 
