@@ -18,7 +18,7 @@
         "infRole": ["3"]
     },
     {
-        "name": "Тимофій Нефедів",
+        "name": "Тимофій Нефедов",
         "birth": "24.03.2014",
         "des": "hello world!",
         "img": "img/vadim.jpg",
@@ -63,7 +63,7 @@
         "infRole": ["4"]
     },
     {
-        "name": "Нефедів Артем",
+        "name": "Нефедів Нефедов",
         "birth": "03.07.2011",
         "des": "hello world!",
         "img": "img/vadim.jpg",
