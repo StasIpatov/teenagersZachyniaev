@@ -1,5 +1,5 @@
 body{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
     font-display: swap;
     color: white;
     min-height: 100vh;
@@ -42,7 +42,7 @@ nav{
         padding: 5px;
         border-radius: 5px;
         border: 1px solid white;
-        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-family: 'Comic Neue', 'Comic Sans MS', cursive;
         font-display: swap;
     }
 }
