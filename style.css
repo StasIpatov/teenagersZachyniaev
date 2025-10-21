@@ -104,6 +104,7 @@ nav{
 }
 
 .pepList, .presList{
+  margin: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

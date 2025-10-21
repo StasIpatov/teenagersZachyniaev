@@ -1,55 +1,55 @@
-async function getProducts(){
-    let response = await fetch('JSON/group.json')
-    let products = await response.json()
-    return products
+// JS/card.js
+async function getProducts() {
+  try {
+    const res = await fetch('JSON/group.json');
+    if (!res.ok) throw new Error('group.json fetch failed: ' + res.status);
+    const products = await res.json();
+    return products;
+  } catch (err) {
+    console.error('getProducts error:', err);
+    return [];
+  }
 }
 
-function getCardHtml(info){
-    let productData = JSON.stringify(info)
-
-    return`
-			<div class="col person" id='${info.sing}' data-role='${info.infRole.join(",")}' ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(${info.img})">
-						<div class="inner">
-							<p>${info.name}</p>
-              <span>${info.role}</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-                            <h2>${info.name}</h2>
-                            <p>День народження ${info.birth}</p>
-						    <p>${info.des}</p>
-						</div>
-					</div>
-    `
+function getCardHtml(info) {
+  return `
+    <div class="col person" id="${info.sing}" data-role="${Array.isArray(info.infRole) ? info.infRole.join(',') : info.infRole}">
+      <div class="container">
+        <div class="front" style="background-image: url(${info.img})">
+          <div class="inner">
+            <p>${info.name}</p>
+            <span>${info.role}</span>
+          </div>
+        </div>
+        <div class="back">
+          <div class="inner">
+            <h2>${info.name}</h2>
+            <p>День народження ${info.birth}</p>
+            <p>${info.des}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
-// Функція для отримання значення кукі за ім'ям
-function getCookieValue(cookieName) {
-    // Розділяємо всі куки на окремі частини
-    const cookies = document.cookie.split(';');
+// Функція для рендера і повернення Promise, щоб інші модулі чекали завершення
+async function renderCardsAndReturn() {
+  const products = await getProducts();
+  const cardList = document.querySelector('.pepList');
+  if (!cardList) {
+    console.warn('.pepList not found in DOM');
+    return [];
+  }
 
-    // Шукаємо куки з вказаним ім'ям
-    for (let i = 0; i < cookies.length; i++) {
-        const cookie = cookies[i].trim(); // Видаляємо зайві пробіли
+  cardList.innerHTML = ''; // очищаємо перед додаванням
+  products.forEach(p => {
+    cardList.innerHTML += getCardHtml(p);
+  });
 
-        // Перевіряємо, чи починається поточне кукі з шуканого імені
-        if (cookie.startsWith(cookieName + '=')) {
-            // Якщо так, повертаємо значення кукі
-            return cookie.substring(cookieName.length + 1); // +1 для пропуску символу "="
-        }
-    }
-    // Якщо кукі з вказаним іменем не знайдено, повертаємо порожній рядок або можна повернути null
-    return '';
+  console.log('card.js: cards rendered:', products.map(p => p.sing));
+  return products.map(p => p.sing); // повертаємо масив id-ів
 }
 
-getProducts().then(function(products){
-    let cardList = document.querySelector('.pepList')
-    if(cardList){
-        products.forEach(element => {
-            cardList.innerHTML += getCardHtml(element)
-        });
-    }
-})
+// Запускаємо рендер автоматично (якщо ти підключаєш card.js в <script>)
+window.cardRenderPromise = renderCardsAndReturn();
