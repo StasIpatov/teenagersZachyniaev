@@ -2,11 +2,16 @@
     {
         "lessNum": "1",
         "lessTopic": "Молитва",
-        "url": "presentation/Молитва.ppt"
+        "url": "presentation/Молитва.pptx"
     },
     {
         "lessNum": "2",
         "lessTopic": "Бог",
         "url": "presentation/Бог.ppt"
+    },
+    {
+        "lessNum": "3",
+        "lessTopic": "Кто мы",
+        "url": "presentation/Кто мы.ppt"
     }
 ]
