@@ -1,7 +1,7 @@
 [
     {
         "name": "Тимофій Кравець",
-        "birth": "???",
+        "birth": "22.11.1997",
         "des": "hello world!",
         "img": "img/timaK.png",
         "role": "Брат, Вчитель",
@@ -27,8 +27,8 @@
         "infRole": ["3"]
     },
     {
-        "name": "Максименко Христина",
-        "birth": "???",
+        "name": "Максименко Кристина",
+        "birth": "13.07.2004",
         "des": "hello world!",
         "img": "img/cris.png",
         "role": "Сестра, Вчитель",
