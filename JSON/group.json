@@ -39,7 +39,7 @@
         "name": "Завялова Аня",
         "birth": "20.01.2013",
         "des": "hello world!",
-        "img": "img/anya.png",
+        "img": "img/vadim.jpg",
         "role": "Сестра",
         "sing": "anya",
         "infRole": ["4"]
@@ -48,7 +48,7 @@
         "name": "Забашта Мілана",
         "birth": "15.02.2012",
         "des": "hello world!",
-        "img": "img/mila.png",
+        "img": "img/vadim.jpg",
         "role": "Сестра",
         "sing": "mila",
         "infRole": ["4"]
@@ -57,7 +57,7 @@
         "name": "Чикурова Богдана",
         "birth": "01.05.2011",
         "des": "hello world!",
-        "img": "img/bogdana.png",
+        "img": "img/vadim.jpg",
         "role": "Сестра",
         "sing": "bogdana",
         "infRole": ["4"]
@@ -75,7 +75,7 @@
         "name": "Чикурова Женя",
         "birth": "03.08.2014",
         "des": "hello world!",
-        "img": "img/zenya.png",
+        "img": "img/vadim.jpg",
         "role": "Сестра",
         "sing": "zenya",
         "infRole": ["4"]
@@ -84,7 +84,7 @@
         "name": "Медведєв Паша",
         "birth": "27.08.2014",
         "des": "hello world!",
-        "img": "img/pasha.png",
+        "img": "img/vadim.jpg",
         "role": "Брат",
         "sing": "pasha",
         "infRole": ["3"]
@@ -93,7 +93,7 @@
         "name": "Завялова Поліна",
         "birth": "03.12.2011",
         "des": "hello world!",
-        "img": "img/poli.png",
+        "img": "img/vadim.jpg",
         "role": "Сестра",
         "sing": "poli",
         "infRole": ["4"]
