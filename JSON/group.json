@@ -49,9 +49,9 @@
         "birth": "15.02.2012",
         "des": "hello world!",
         "img": "img/vadim.jpg",
-        "role": "Сестра",
+        "role": "Сестра, Староста",
         "sing": "mila",
-        "infRole": ["4"]
+        "infRole": ["4", "2"]
     },
     {
         "name": "Чикурова Богдана",
