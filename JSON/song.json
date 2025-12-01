@@ -1,0 +1,42 @@
+[
+    {
+        "songName": "Как прекрасен етот день",
+        "songImg": "imgSong/song1.jpg"
+    },
+    {
+        "songName": "Всё от него и Им сотварено",
+        "songImg": "imgSong/song2.jpg"
+    },
+    {
+        "songName": "Великий Бог",
+        "songImg": "imgSong/song3.jpg"
+    },
+    {
+        "songName": "Всесильний, Нездоланий",
+        "songImg": "imgSong/song4.jpg"
+    },
+    {
+        "songName": "Моя молитва нехай лине",
+        "songImg": "imgSong/song5.jpg"
+    },
+    {
+        "songName": "Світлом засяй",
+        "songImg": "imgSong/song6.jpg"
+    },
+    {
+        "songName": "Однажды Я поклялся",
+        "songImg": "imgSong/song7.jpg"
+    },
+    {
+        "songName": "Давно погасли огни",
+        "songImg": "imgSong/song8.jpg"
+    },
+    {
+        "songName": "В день чудесный",
+        "songImg": "imgSong/song9.jpg"
+    },
+    {
+        "songName": "Ти подаруй",
+        "songImg": "imgSong/song10.jpg"
+    }
+]
