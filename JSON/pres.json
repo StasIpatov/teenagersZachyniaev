@@ -43,5 +43,10 @@
         "lessNum": "9",
         "lessTopic": "Рождество сегодня",
         "url": "presentation/Рождество сегодня.ppt"
+    },
+    {
+        "lessNum": "10",
+        "lessTopic": "Книга книг",
+        "url": "presentation/Книга книг.ppt"
     }
 ]
