@@ -48,5 +48,10 @@
         "lessNum": "10",
         "lessTopic": "Книга книг",
         "url": "presentation/Книга книг.ppt"
+    },
+    {
+        "lessNum": "11",
+        "lessTopic": "Доверие",
+        "url": "presentation/доверие.pptx"
     }
 ]
