@@ -68,5 +68,25 @@
         "lessNum": "14",
         "lessTopic": "Время – подарок от Бога",
         "url": "presentation/Время – подарок от Бога.pptx"
+    },
+    {
+        "lessNum": "15",
+        "lessTopic": "Тайная комната",
+        "url": "presentation/taynaya_komnata.pptx"
+    },
+    {
+        "lessNum": "16",
+        "lessTopic": "Обман",
+        "url": "presentation/Обман.ppt"
+    },
+    {
+        "lessNum": "17",
+        "lessTopic": "Крест и спасение",
+        "url": "presentation/Крест и спасение.ppt"
+    },
+    {
+        "lessNum": "18",
+        "lessTopic": "Настоящая Пасха",
+        "url": "presentation/Настоящая Пасха.pptx"
     }
 ]
